@@ -1,0 +1,251 @@
+/* Copyright 2018, Symon Hambrey, All rights reserved */
+
+html, body{
+  min-height: 100%;
+}
+
+body{
+  cursor: default;
+  width:96%;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  background: linear-gradient(#fff, #29ABE2);
+}
+
+.btn_blue{
+  border-radius: 10px;
+  transition-duration: 0.5s;
+}
+.btn_blue:hover{
+  box-shadow: 2px 2px 10px 10px #fff;
+}
+
+.modal-open[style] {
+padding-right: 0px !important;
+}
+
+.page-header{
+  width:100%;
+  border-bottom: 2px;
+  border-bottom-color: #000;
+  border-bottom-style: solid;
+}
+
+.page-footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.page-footer .text_small{
+  color: #000;
+  transition-duration: 0.5s;
+}
+
+.page-footer .text_small:hover{
+  color: #fff;
+}
+
+.text_large, .text_small, .text_medium, .text{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.text_large{
+  font-size: 4em;
+}
+
+.text{
+  font-size: 2em;
+}
+
+.text_medium{
+  font-size: 1.8em;
+}
+
+.text_small{
+  font-size: 1em;
+}
+
+.main_box{
+  margin-top: 5%;
+  border: 2px;
+  border-radius: 20px;
+  border-width: medium;
+  border-color: #000;
+  border-style: solid;
+  background-color: #2671D1;
+  color: #fff;
+  padding-bottom: 1%;
+  transition-duration: 0.5s;
+}
+
+.main_box:hover{
+  box-shadow: 2px 2px 20px 20px #fff;
+}
+
+.text_box{
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.top_right_button{
+  margin-top: 10%;
+  border-radius: 10px;
+  background-color: #2671D1;
+  color: #fff;
+  border: 2px solid #2671D1;
+  transition-duration: 0.5s;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.5em;
+}
+.top_right_button:hover{
+  box-shadow: 2px 2px 20px 10px #29ABE2;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#no_underline{
+  text-decoration: none;
+}
+
+.navbar{
+  color: #000;
+  transition-duration: 0.5s;
+}
+
+.navbar:hover{
+  color: #2671D1;
+}
+
+.dropdown-content {
+  border-radius: 20px;
+  display: none;
+  position: absolute;
+  background-color: #29ABE2;
+  min-width: 700%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  transition-duration: 0.5s;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover{
+  border-radius: 20px;
+  background-color: #77CAED;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+  transition-duration: 0.5s;
+}
+
+.material-icons{
+  font-size: 1em;
+}
+
+/* ADMIN SPECIFIC */
+
+.title_row{
+  border: 1px;
+  border-style: solid;
+  border-color: #000;
+}
+.title_row_all{
+  border-radius: 10px;
+  padding: 2px;
+  background-color: #fff;
+}
+.title_row_hover :hover{
+  font-style: italic;
+  color: #000;
+}
+.title_row_left{
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: #2671D1;
+}
+.title_row_right{
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: #2671D1;
+}
+.title_row_mid{
+  background-color: #2671D1;
+}
+.title_row_full{
+  border-radius: 8px;
+  background-color: #2671D1;
+}
+.title_text{
+  font-size: 1.2em;
+  color: #fff;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
+  padding-right: 1px;
+}
+.message_text{
+  margin: 0;
+  color: #fff;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  vertical-align: middle;
+  /*max-height: 1em;*/
+}
+.hidden_field{
+  z-index: -10;
+  font-size:0;
+}
+.circle_button{
+  font-size: .6em;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 0;
+}
+.details_title{
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+.details_body, .details_footer{
+  background-color: #32AEE3;
+}
+.details{
+  border: 1px solid #000;
+  border-radius: 20px;
+  background-color: #32AEE3;
+}
+.user{
+  padding-left: 20px;
+  padding-top: 15px;
+}
+#add_user{
+  position: inherit;
+}
+.user_box{
+  z-index: 10;
+  position: absolute;
+  visibility: hidden;
+  background-color: #32AEE3;
+  min-width: 50%
+}
+.addUser{
+  padding-top: 5px;
+}
+.lighter_blue{
+  background-color: #189AD1;
+}
+.hidden{
+  display: none;
+}
